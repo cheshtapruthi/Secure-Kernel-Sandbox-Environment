@@ -20,7 +20,6 @@ target_link_libraries(sandbox2_static_sandbox PRIVATE
   sapi::base
 )
 
-# sandboxed_api/sandbox2/examples/static:static_bin
 add_executable(sandbox2_static_bin
   static_bin.cc
 )
