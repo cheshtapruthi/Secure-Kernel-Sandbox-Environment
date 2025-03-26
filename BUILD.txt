@@ -28,7 +28,8 @@ cc_binary(
     ],
 )
 
-# Sandboxee
+
+#     Sandboxee
 # security: disable=cc-static-no-pie
 cc_binary(
     name = "static_bin",
